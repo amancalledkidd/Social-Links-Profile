@@ -15,6 +15,7 @@
     --clr-lt-grey: hsl(0, 0%, 20%);
     --clr-mid-grey: hsl(0, 0%, 12%);
     --clr-dk-grey: hsl(0, 0%, 8%);
+    
 }
 
 body {
@@ -34,9 +35,7 @@ body {
     width: 350px;
     height: auto;
     padding: 1rem;
-    
-    
-
+    font-family: "Inter", sans-serif;
 }
 
 .socials-card__image {
@@ -56,6 +55,7 @@ body {
 .socials-card__content-name {
     text-align: center;
     font-size: 1.5rem;
+    letter-spacing: 1.2px;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
 }
@@ -83,9 +83,12 @@ body {
     font-weight: bold;
 }
 
-.button:hover {
+.button:hover,
+.button:active {
     background-color: var(--clr-green);
     color: black;
+    cursor: pointer;
+    
 }
 
 
