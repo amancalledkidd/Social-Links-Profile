@@ -1,0 +1,100 @@
+@import url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --breakpoint-mobile: 375px;
+    --breakpoint-desktop: 1440px;
+
+    --clr-green: hsl(75, 94%, 57%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-lt-grey: hsl(0, 0%, 20%);
+    --clr-mid-grey: hsl(0, 0%, 12%);
+    --clr-dk-grey: hsl(0, 0%, 8%);
+}
+
+body {
+    height: 100vh;
+    font-size: 14px;
+    color: var(--clr-white);
+    background-color: var(--clr-dk-grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials-card {
+    background-color: var(--clr-mid-grey);
+    border-radius: 10px;
+    width: 350px;
+    height: auto;
+    padding: 1rem;
+    
+    
+
+}
+
+.socials-card__image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.socials-card__image > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.socials-card__content-name {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.socials-card__content-location {
+    text-align: center;
+    font-weight: bold;
+    color: var(--clr-green);
+    margin-bottom: 2rem;
+}
+
+.socials-card__content-bio {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.button {
+    background-color: var(--clr-lt-grey);
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: var(--clr-green);
+    color: black;
+}
+
+
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    padding: 1rem;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
